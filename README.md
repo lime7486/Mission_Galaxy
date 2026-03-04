@@ -1,0 +1,6 @@
+- **Basic Identification Information:** 2MASSID, SDSS_objid, dr8id, N_dir, Serial Number
+- **Observation Coordinates:** R.A., DEC.
+- **Classification Statistics:** Number of Classifications, Number of Unclassifiable
+- **Main Morphological Classification:** morph, morph_desi, morph_2MASS, morph_sdss
+- **Detailed Structural Classification Results:** Elliptical (O/X/?), Disk (O/X/?), Spiral Arm (O/X/?), Ring (O/X/?), Irregular (O/X/?), Bar (O/X/?), Merger (O/X/?), Tail (O/X/?), Other (O/X/?)
+- **Observation & Physical Quantity Information:** Image Availability, Redshift, Kmag, 2MRS_type
