@@ -34,9 +34,3 @@ This table describes the notation system and byte positions used to encode galax
 | 9 | Other peculiar structure | U / _ |
 
 ---
-
-## 🧬 Encoding Example
-
-Each galaxy is represented as a 9-byte string.
-
-Example:
