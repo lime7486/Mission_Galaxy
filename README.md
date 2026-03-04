@@ -1,3 +1,10 @@
+- **기본 식별 정보:** 2MASSID, SDSS_objid, dr8id, N_dir, 연번
+- **관측 좌표:** R.A., DEC.
+- **분류 통계 정보:** 분류 횟수, 분류불가 횟수
+- **주 형태 분류:** morph, morph_desi, morph_2MASS, morph_sdss
+- **세부 구조 분류 결과:** 타원(O/X/?), 원반(O/X/?), 나선팔(O/X/?), 고리(O/X/?), 불규칙(O/X/?), 막대(O/X/?), 합병(O/X/?), 꼬리(O/X/?), 기타(O/X/?)
+- **관측 및 물리량 정보:** 이미지 여부, Redshift, Kmag, 2MRS_type
+
 - **Basic Identification Information:** 2MASSID, SDSS_objid, dr8id, N_dir, Serial Number
 - **Observation Coordinates:** R.A., DEC.
 - **Classification Statistics:** Number of Classifications, Number of Unclassifiable
