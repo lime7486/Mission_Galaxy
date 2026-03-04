@@ -1,24 +1,42 @@
-# Mission_Galaxy
+# Mission Galaxy - Cross Match Results
 
-Mission_Galaxy_vgg_single      : Inference results from the VGGNet_Single model
-Mission_Galaxy_vgg_ensemble    : Inference results from the VGGNet_Ensemble model
-Mission_Galaxy_resnet_single   : Inference results from the ResNet_Single model
-Mission_Galaxy_resnet_ensemble : Inference results from the ResNet_Ensemble model
+## Inference Result Directories
+
+- **Mission_Galaxy_vgg_single**  
+  → Inference results from the `VGGNet_Single` model
+
+- **Mission_Galaxy_vgg_ensemble**  
+  → Inference results from the `VGGNet_Ensemble` model
+
+- **Mission_Galaxy_resnet_single**  
+  → Inference results from the `ResNet_Single` model
+
+- **Mission_Galaxy_resnet_ensemble**  
+  → Inference results from the `ResNet_Ensemble` model
 
 
-===================================================================================
-[Table] Notation Methods and Byte Positions by Morphological Features
-===================================================================================
+---
 
-Item (Morphological Feature)      	Notation (Yes/No)      Byte Position
------------------------------------------------------------------------------------
-Elliptical galaxy                	 	E / _                  		1
-Disk structure                    	D / _                  	  2
-Spiral arms                      	 	S / _                  		3
-Irregular structure              	 	I / _                  		4
-Ring structure                    	R / _                 		5
-Central bar structure            	 	B / _                  		6
-Merger trace                        M / _                  	  7
-Tidal tail                        	T / _                  		8
-Other peculiar structure          	U / _                  	  9
-====================================================================================
+# Morphological Feature Encoding Scheme
+
+This table describes the notation system and byte positions used to encode galaxy morphological features.
+
+| Byte Position | Morphological Feature        | Notation (Yes / No) |
+|--------------|-----------------------------|---------------------|
+| 1 | Elliptical galaxy | E / _ |
+| 2 | Disk structure | D / _ |
+| 3 | Spiral arms | S / _ |
+| 4 | Irregular structure | I / _ |
+| 5 | Ring structure | R / _ |
+| 6 | Central bar structure | B / _ |
+| 7 | Merger trace | M / _ |
+| 8 | Tidal tail | T / _ |
+| 9 | Other peculiar structure | U / _ |
+
+---
+
+## 🧬 Encoding Example
+
+Each galaxy is represented as a 9-byte string.
+
+Example:
